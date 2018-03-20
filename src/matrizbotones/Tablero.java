@@ -74,7 +74,7 @@ public class Tablero {
     public void cambioColor(int fila, int colum){
         if(matrizBotonesLogica[fila][colum]==9){
             matrizBotones[fila][colum].setBackground(Color.decode(colores[0]));
-            matrizBotonesLogica[fila][colum]=0;
+            matrizBotonesLogica[fila][colum]=1;
         }else{
             int color = matrizBotonesLogica[fila][colum];
             matrizBotonesLogica[fila][colum]++;
